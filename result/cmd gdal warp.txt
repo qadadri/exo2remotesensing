@@ -1,0 +1,2 @@
+gdalwarp --debug on -t_srs EPSG:4326 -te 8.876030145953349 44.43520365289531 8.901188163010731 44.41701856932691 result_true_color.tiff crop.tiff
+gdalwarp -s_srs epsg:4326 -t_srs epsg:4326 crop.tiff crop_final.tiff
